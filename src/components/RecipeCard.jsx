@@ -36,7 +36,7 @@ function RecipeCard({ recipe, image }) {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden"
+      className="bg-white dark:bg-white rounded-lg shadow-xl overflow-hidden"
     >
       {image && (
         <img

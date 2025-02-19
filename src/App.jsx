@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import RecipeGenerator from './components/RecipeGenerator';
 import './App.css';
+import CylindersGrid from './components/CylindersGrid';
  
 
 function App() {
@@ -14,13 +15,20 @@ function App() {
   };
 
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'dark bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
+     <>
+     <div className="glass-effect">
+
+    
+    <div className={`min-h-screen `}>
+     <CylindersGrid />
       <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-      <main className="container mx-auto px-4">
+      <main className="container mx-auto px-4 glass-effect">
         <Hero />
         <RecipeGenerator />
       </main>
     </div>
+    </div>
+    </>
   );
 }
 

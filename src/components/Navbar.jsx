@@ -9,7 +9,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="text-xl font-bold"
+            className="text-xl font-bold text-white"
           >
             Smart Recipe Generator
           </motion.div>

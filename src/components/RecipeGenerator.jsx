@@ -70,7 +70,7 @@ function RecipeGenerator() {
           className="space-y-4"
         >
           <div>
-            <label htmlFor="ingredients" className="block text-sm font-medium mb-2">
+            <label htmlFor="ingredients" className="block text-sm font-medium mb-2 text-white">
               Enter your ingredients (separated by commas)
             </label>
             <div className="relative">

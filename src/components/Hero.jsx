@@ -8,11 +8,11 @@ function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold mb-6">
+        <h1 className="text-4xl text-pink-400 md:text-6xl font-bold mb-6">
           Turn Ingredients into
           <span className="text-primary"> Delicious Meals</span>
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+        <p className="text-xl text-white dark:text-white mb-8">
           Enter your available ingredients and let AI create the perfect recipe for you
         </p>
         <motion.a
